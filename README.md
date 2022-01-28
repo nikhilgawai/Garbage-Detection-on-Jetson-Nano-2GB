@@ -1,5 +1,6 @@
 
-# Garbage Detection on Yolov5 using Jetson Nano 2gb Developer Kit.
+# Garbage Detection on Jetson Nano 2GB Developer Kit using Yolov5.
+
 
 Garbage detection system which will detect objects based on whether it is
 plastic waste or plastics or just garbage.
@@ -115,7 +116,13 @@ supports all Jetson modules.
 # Jetson Nano 2GB
 
 
-![IMG_20220125_115056](https://user-images.githubusercontent.com/89011801/151320368-d281c6a9-c5fe-476f-b495-44ffd2e21380.jpg)
+
+
+
+https://user-images.githubusercontent.com/89011801/151482942-43bed9a8-abc9-4548-92b2-0c24e7d43d0b.mp4
+
+
+
 
 
 ## Proposed System
@@ -143,11 +150,10 @@ Garbage detection and then showing on viewfinder whether the object is garbage o
 
 Garbage Detection Module
 
-```bash
-This Module is divided into two parts:
-```
 
-    1] Garbage detection
+#### This Module is divided into two parts:
+
+#### 1] Garbage detection
 
 • Ability to detect the location of object in any input image or frame. The output is
 the bounding box coordinates on the detected object.
@@ -159,7 +165,7 @@ and google images and made our own dataset.
 • This Datasets identifies object in a Bitmap graphic object and returns the
 bounding box image with annotation of object present in a given image.
 
-    2] Classification Detection
+#### 2] Classification Detection
 
 
 • Classification of the object based on whether it is garbage or not.
@@ -280,8 +286,6 @@ sudo python3 detect.py --weights yolov5s.pt --source 0
 train your model on colab and download the weights and past them into yolov5 folder
 link of project
 
-Insert gif or link to demo
-
 
 ## Running Garbage Detection Model
 source '0' for webcam
@@ -352,15 +356,15 @@ counteract and prevent water borne diseases.
 and hence can go to work with no problem.
 ## Refrences
 
-1]Roboflow :- https://roboflow.com/
+#### 1]Roboflow :- https://roboflow.com/
 
-2] Datasets or images used: https://www.gettyimages.ae/search/2/image?phrase=garbage
+#### 2] Datasets or images used: https://www.gettyimages.ae/search/2/image?phrase=garbage
 
-3] Google images
+#### 3] Google images
 ## Articles
 
 
 
-[1] https://www.recycling-magazine.com/2020/05/06/waste-management-crisis-in-india/#:~:text=Urban%20India%20generates%2062%20million,just%2011.9%20million%20is%20treated.
+#### [1] https://www.recycling-magazine.com/2020/05/06/waste-management-crisis-in-india/#:~:text=Urban%20India%20generates%2062%20million,just%2011.9%20million%20is%20treated.
 
-[2] https://www.downtoearth.org.in/blog/waste/india-s-challenges-in-waste-management-56753
+#### [2] https://www.downtoearth.org.in/blog/waste/india-s-challenges-in-waste-management-56753
